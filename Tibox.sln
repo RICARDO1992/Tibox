@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tibox.Models", "Models\Tibo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tibox.Repository", "Tibox.Repository\Tibox.Repository.csproj", "{BBBBD169-0EE5-474D-9E23-F3B73C0CE766}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Test", "Unit Test", "{4C768FE0-AD55-4B19-BBE3-EFDD48BDE48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tibox.DataAccess.Tests", "Tibox.Repository.Tests\Tibox.DataAccess.Tests.csproj", "{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{BBBBD169-0EE5-474D-9E23-F3B73C0CE766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBBBD169-0EE5-474D-9E23-F3B73C0CE766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBBBD169-0EE5-474D-9E23-F3B73C0CE766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B} = {4C768FE0-AD55-4B19-BBE3-EFDD48BDE48F}
 	EndGlobalSection
 EndGlobal
