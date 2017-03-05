@@ -3,7 +3,7 @@ using System;
 
 namespace Tibox.Models
 {
-    [Table("[Order]")]
+    [Table("[Order] ")]
     public class Order
     {
         public int Id { get; set; }
