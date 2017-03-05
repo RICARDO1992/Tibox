@@ -12,12 +12,12 @@ namespace Tibox.UnitOfWork
     public interface IUnitOfWork
     {
         ICostumerRepository Customers { get;  }
-        IRepository<Order> Orders { get; }
+        //IRepository<Order> Orders { get; }
         IRepository<OrderItem> OrderItems { get; }
         IRepository<Product> Products { get; }
         IRepository<Supplier> Suppliers { get; }
 
-
+        IOrderRepository Orders { get; }
 
     }
 }

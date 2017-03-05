@@ -13,4 +13,3 @@ SELECT * FROM Customer;
 -- 	   > OrderWithOrderItems
 -- 5. Crear las pruebas unitarias de Order
 
-

@@ -14,7 +14,8 @@ namespace Tibox.UnitOfWork
         public TiboxUnitOfWork()
         {
             Customers = new CostumerRepository();
-            Orders = new BaseRepository<Order>();
+            Orders = new OrderRepository();
+            //Orders = new BaseRepository<Order>();
             OrderItems = new BaseRepository<OrderItem>();
             Products = new BaseRepository<Product>();
             Suppliers = new BaseRepository<Supplier>();
@@ -22,7 +23,8 @@ namespace Tibox.UnitOfWork
         }
 
         public ICostumerRepository Customers { get; private set; }
-        public IRepository<Order> Orders { get; private set; }
+        public IOrderRepository Orders { get; private set; }
+        //public IRepository<Order> Orders { get; private set; }
         public IRepository<OrderItem> OrderItems { get; private set; }
         public IRepository<Product> Products { get; private set; }
         public IRepository<Supplier> Suppliers { get; private set; }
