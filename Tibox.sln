@@ -37,6 +37,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tibox.Html5", "..\Tibox.Htm
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tibox.Prueba", "Tibox.Prueba\Tibox.Prueba.csproj", "{467ECC93-C5BB-4B04-8177-2296ABFEECDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{9B3A9704-B8FE-4189-8DE8-A0EA56DD3271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3A9704-B8FE-4189-8DE8-A0EA56DD3271}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B3A9704-B8FE-4189-8DE8-A0EA56DD3271}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
