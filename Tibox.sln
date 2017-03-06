@@ -39,6 +39,27 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tibox.Html5", "..\Tibox.Htm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tibox.Prueba", "Tibox.Prueba\Tibox.Prueba.csproj", "{467ECC93-C5BB-4B04-8177-2296ABFEECDC}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tibox.Html5s", "..\Tibox.Html5s\", "{C00031ED-4D6D-4FF7-AFA4-4B61691D2A6A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_5813"
+		Debug.AspNetCompiler.PhysicalPath = "..\Tibox.Html5s\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5813\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_5813"
+		Release.AspNetCompiler.PhysicalPath = "..\Tibox.Html5s\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5813\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5813"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +90,10 @@ Global
 		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{467ECC93-C5BB-4B04-8177-2296ABFEECDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00031ED-4D6D-4FF7-AFA4-4B61691D2A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00031ED-4D6D-4FF7-AFA4-4B61691D2A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00031ED-4D6D-4FF7-AFA4-4B61691D2A6A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00031ED-4D6D-4FF7-AFA4-4B61691D2A6A}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +101,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F1DE7E7E-4264-487F-BE83-A7B2DD461C8B} = {4C768FE0-AD55-4B19-BBE3-EFDD48BDE48F}
 		{9B3A9704-B8FE-4189-8DE8-A0EA56DD3271} = {B132A2A3-40CE-4A8D-B1DF-0F3F82538338}
+		{C00031ED-4D6D-4FF7-AFA4-4B61691D2A6A} = {B132A2A3-40CE-4A8D-B1DF-0F3F82538338}
 	EndGlobalSection
 EndGlobal
