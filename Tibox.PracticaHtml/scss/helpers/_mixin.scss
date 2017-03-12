@@ -1,0 +1,41 @@
+﻿@mixin break-point($breakpoint)
+{
+    $bp-xs: "(max-width: 420px)";
+    $bp-sm: "(min-width: 420px)";
+    $bp-md: "(min-width: 768px)";
+    $bp-lg: "(min-width: 1024px)";
+    $bp-xl: "(min-width: 1280px)";
+    $bp-xxl: "(min-width: 1900px)";
+
+    @if($breakpoint == xs)
+    {
+        // interpolacion de elementos: viene a la combinacion de texto basada en variables
+        @media #{$bp-xs}{@content}
+    }
+    @else if($breakpoint == sm)
+    {
+        // interpolacion de elementos: viene a la combinacion de texto basada en variables
+        @media #{$bp-sm}{@content}
+    }
+    @else if($breakpoint == md)
+    {
+        // interpolacion de elementos: viene a la combinacion de texto basada en variables
+        @media #{$bp-md}{@content}
+    }
+    @else if($breakpoint == lg)
+    {
+        // interpolacion de elementos: viene a la combinacion de texto basada en variables
+        @media #{$bp-lg}{@content}
+    }
+    @else if($breakpoint == xl)
+    {
+        // interpolacion de elementos: viene a la combinacion de texto basada en variables
+        @media #{$bp-xl}{@content}
+    }
+    @else if($breakpoint == xxl)
+    {
+        // interpolacion de elementos: viene a la combinacion de texto basada en variables
+        @media #{$bp-xxl}{@content}
+    }
+}
+

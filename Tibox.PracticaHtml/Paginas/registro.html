@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Bienvenidos a tibox web</title>
+	<meta charset="utf-8" />
+    
+    <link href="../Style/Style.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <a class="headerlogo">
+            <img src="../images/inversiones.png" />
+        </a>
+        <nav class="dropdown">
+            <button class="menu-title">
+                Menu
+            </button>
+            <ul class="dropdown-content">
+                <li>
+                    <a href="../Index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="registro.html">
+                        Registro
+                    </a>
+                </li>
+                <li>
+                    <a href="Productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="Ubicanos.html">Geolocalización</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <section>
+        <h3>
+            Registro.
+        </h3>
+        <form>
+            <p>
+                Experiencia Laboral: 
+                EF: <input type="number" value="0" min="0" step="0.1" /> <br />
+                ADO: <input type="number" value="0" min="0" step="0.1" /> <br />
+                MVC: <input type="number" value="0" min="0" step="0.1" /> <br />
+                Javascript: <input type="number" value="0" min="0" step="0.1" /><br />
+            </p>
+
+            <p>
+                Codigo: <input type="text" readonly/>
+            </p>
+
+            <p>
+                <datalist id="navegador">
+                    <option value="Internet Explorer"></option>
+                    <option value="Firefox"></option>
+                    <option value="Google Chrome"></option>
+                    <option value="Opera"></option>
+                    <option value="Safari"></option>
+                </datalist>
+                Navegador Preferido : <input list="navegador" />
+            </p>
+            <p>
+                Nombre: <input  type="text" required title="Ingresar Nombre"
+                                oninvalid="this.setCustomValidity('el nombre debe requerido!!!')"
+                               oninput="setCustomValidity('')"
+                               />
+            </p>
+            <p>
+                Fecha de Nacimiento: <input  type="date" value="2017-03-12"/>
+
+            </p>
+            <p>
+                Edad : <input type="number"  id="edad" name="edadname" min="18" max="75"/>
+            </p>
+            <p>
+                Correo: <input  type="email" placeholder="prueba@gmail.com" />
+            </p>
+
+            <p>
+                Pagina Web: <input type="url" />
+            </p>
+            <p>
+                Telefono: <input type="tel" pattern="\d\d\d-\d\d\d\d" />
+            </p>
+            <p>
+                Color Favorito: <input  type="color" value="#b97a40"/>
+            </p>
+            <p>
+                Certificados: <input type="file" multiple accept=".xls, .xlsx" />
+            </p>
+            <p>
+                Curriculum: <input type="file" accept=".pdf" />
+            </p>
+
+            <p>
+                <button type="submit" value="Registrar">
+                    Registrar
+                </button>
+            </p>
+
+        </form>
+    </section>
+    <footer>
+        Nuestra direccion
+    </footer>
+
+</body>
+</html>
+

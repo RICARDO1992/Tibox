@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Bienvenidos a tibox Site</title>
+	<meta charset="utf-8" />
+
+    
+    <link href="../Style/Style.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <a class="headerlogo">
+            <img src="../images/inversiones.png" />
+        </a>
+        <nav class="dropdown">
+            <button class="menu-title">
+                Menu
+            </button>
+            <ul class="dropdown-content">
+                <li>
+                    <a href="../Index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="registro.html">
+                        Registro
+                    </a>
+                </li>
+                <li>
+                    <a href="Productos.html">Productos</a>
+                </li>
+                <li>
+                    <a href="Ubicanos.html">Geolocalización</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section>
+        <div id="googlemapa" class="map"  >
+
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script>
+        function myMap()
+        {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(muestraPosicion);
+            }
+        }
+
+        function muestraPosicion(position)
+        {
+            var locacion = { lat: position.coords.latitude, lng: position.coords.longitude };
+            var mapaGoogle = new google.maps.Map(document.getElementById("googlemapa"), { zoom: 15, center: locacion });
+            var marcado = new google.maps.Marker({position: locacion, map: mapaGoogle, title: "Tibox!"});
+
+        }
+
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzeD3YQKKCsRmw42tn08a1aiYINvyMXm0&callback=myMap">
+
+    </script>
+</body>
+</html>
